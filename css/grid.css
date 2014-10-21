@@ -1,10 +1,10 @@
 
-div {
+/*div {
   border: 1px solid green;
-}
+}*/
 
 /* Coloring Code */
-.grid {
+/*.grid {
     background-color: #999;
 }
 
@@ -14,7 +14,7 @@ div {
 
 [class*="-col"] {
     background-color: #EEE;
-}
+}*/
 
 
 
