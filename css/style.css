@@ -1,0 +1,127 @@
+body {
+	background: url("../images/background.jpg") center no-repeat fixed;
+	background-size: cover;
+	font-family: 'Lato', sans-serif;
+}
+
+.header {
+	background: rgba(95,118,133,0.8);
+	color: white;
+}
+
+.header > .logo {
+	font-size: 2em;
+	padding: .25em 1em;
+}
+
+.header ul, li {
+	display: inline;
+}
+
+.header li {
+	margin: 0 .6em;
+}
+
+.header p {
+	display: inline;
+	font-size: .5em;
+}
+
+.menu {
+	float:right;
+	vertical-align: middle;
+	margin: 1em 0 0 0;
+}
+
+.menu a {
+	color: white;
+}
+
+.menu a:hover{
+	color: yellow
+}
+
+.content {
+	max-width: 960px;
+	margin: 3em auto;
+}
+
+.content::before {
+	min-height: 100px;
+}
+
+.card-nav h1 {
+	font-size: 1.5em;
+	padding: 1em 0 .5em 0;
+}
+.card-nav p {
+	/*display: block;*/
+	margin: .7em 0;
+	font-size: .75em;
+}
+
+.card-nav-title {
+	background-color: #ffeb00;
+	color: black;
+	padding: .6em;
+	font-weight: bold;
+}
+
+.card-nav-body {
+	background: black;	
+}
+
+.card-nav-body a {
+	color: LightGray;	
+}
+
+.card-nav-body li {
+	display: block;
+	margin: .5em;	
+}
+
+.card-nav-body ol {
+	list-style: decimal outside;
+}
+
+.card {
+	background-color: white;
+	color: black;
+}
+
+.card h1 {
+	font-size: 1.5em;
+	margin: 2em 0 1em 0;
+	font-weight: bold;
+}
+
+.card-header {
+	background-color: #fff200;
+	font-size: 1em;
+	text-align: center;
+	padding: 0.5em 0;
+	color: DarkGray;
+}
+
+.card-content {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.card-content p {
+	margin-bottom: 1em;
+	line-height: 1.5;
+	font-size: 1em;
+}
+
+.image {
+	width: 240px;
+	padding: 7px;
+    border: solid 1px #ddd;
+}
+
+.right {
+	float: right;
+	margin: 0 0 0 0.8em;
+}
+
