@@ -35,6 +35,10 @@ body {
 
 .menu a {
 	color: white;
+	text-decoration: none;
+}
+.italic {
+	font-style: italic;
 }
 
 .menu a:hover{
@@ -118,7 +122,6 @@ body {
 }
 
 .card-header::before {
-	color: black;
 	content: "\2329";
 	float:left;
 	margin: 0 1em;
