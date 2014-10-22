@@ -72,6 +72,7 @@ body {
 .card-nav-body {
 	background: #313131;	
 	font-weight:300;	
+	padding-top: 1em;
 }
 
 .card-nav-body a {
@@ -79,16 +80,22 @@ body {
 	color: #aaa;
 	font-weight:300;
 	font-size: 0.8em;	
-	list-style: decimal inside;
+	list-style: decimal inside;	
+}
+
+.card-nav-body a:hover {
+	color: #6f96a8;
 }
 
 .card-nav-body li {
-	display: block;
+	display: list-item;
 	margin: 1.25em;	
 }
 
 .card-nav-body ol {
-	list-style: decimal inside;
+	list-style: decimal outside;
+	color: #666;
+	margin: 1em 0 1em 1em;
 }
 
 .card {
@@ -108,6 +115,19 @@ body {
 	text-align: center;
 	padding: 0.5em 0;
 	color: DarkGray;
+}
+
+.card-header::before {
+	color: black;
+	content: "\2329";
+	float:left;
+	margin: 0 1em;
+}
+
+.card-header::after {
+	content: "\232a";
+	float:right;
+	margin: 0 1em;
 }
 
 .card-content {
