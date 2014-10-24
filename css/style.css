@@ -16,6 +16,8 @@ body {
 .header > .logo {
 	font-size: 2em;
 	padding: .25em 1em;
+	font-family: 'Crimson Text', serif;
+	font-weight: bold;
 }
 
 .header ul, li {
@@ -70,18 +72,44 @@ body {
 	font-weight: 300;
 }
 
+.card-nav time {
+	font-size: .65em;
+	font-weight: 300;
+	margin-bottom: 3em;
+}
+
 .card-nav-title {
 	background-color: #ffeb00;
 	color: black;
-	padding: .6em;
+	padding: .6em .6em 2em;
 	font-weight: bold;
 }
 
 
+
+.card-nav-body::before, .card-nav-body::after {	
+	width: 100%;
+	margin: .25em 0;
+	color: gray;
+	background-color: black;
+	display: block;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.card-nav-body::before {
+	content: "\2303";
+}
+
+.card-nav-body::after {
+	font-size: 1.3em;
+	content: "\2304";
+}
+
 .card-nav-body {
 	background: #313131;	
 	font-weight:300;	
-	padding-top: 1em;
+	padding-top: 0em;	
 }
 
 .card-nav-body a {
@@ -105,6 +133,8 @@ body {
 	list-style: decimal outside;
 	color: #666;
 	margin: 1em 0 1em 1em;
+	overflow-y: scroll;	
+	height: 40em;	
 }
 
 .card {
