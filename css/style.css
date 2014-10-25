@@ -254,23 +254,25 @@ body {
   }
 }
 
-/*
-.menu-expand {
+
+.menut-expand {
 	display: inline-block;
 	font-size: .8em;
 	margin: 0 .5em;
-}*/
+}
 
 .onclick-menu {
     position: relative;
-    display: inline-block;
+/*    display: inline-block;*/
 }
 
 .onclick-menu:focus {
     /* clicking on label should toggle the menu */
     pointer-events: none;
+    outline: none;
 }
-.onclick-menu:focus .onclick-menu-content {
+
+.onclick-menu:focus > .onclick-menu-content {
     /*  opacity is 1 in opened state (see below) */
     opacity: 1;
     visibility: visible;
@@ -285,7 +287,12 @@ body {
     /* use opacity to fake immediate toggle */
     opacity: 0;
     visibility: hidden;
-    transition: visibility 0.5s;
+    transition: opacity  0.5s;
 }
 
+.popup-menu {
+	font-size: .65em;
+	height: 20em;
+	overflow-y: scroll;
+}
 
